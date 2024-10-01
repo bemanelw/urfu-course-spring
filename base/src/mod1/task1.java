@@ -1,4 +1,6 @@
-public class mod1 {
+package mod1;
+
+public class task1 {
     public static void main(String[] args) {
         int sum = 0;
 
