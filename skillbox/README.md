@@ -1,0 +1,1 @@
+mod1 находится в папке skillbox, mod2 находится по пути skillbox/mod2

@@ -1,0 +1,13 @@
+1728511210536:listStudents
+1728511228270:addStudent --firstName John --lastName Doe --age 20
+1728511330484:listStudent
+1728511403721:listStudents
+1728511528323:@ShellMethod("Add a new student")
+1728511541604:listStudents
+1728511947381:addStudent --firstName John --lastName Doe --age 20
+1728512568283:listStudents
+1728512678531:help
+1728512696826:list-students
+1728512735848:add-student --firstName John --lastName Doe --age 20
+1728512749330:list-students
+1728512877955:help

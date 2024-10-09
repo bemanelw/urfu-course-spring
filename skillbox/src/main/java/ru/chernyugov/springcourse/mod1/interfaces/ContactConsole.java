@@ -15,7 +15,6 @@ import java.util.Scanner;
 @Component
 public class ContactConsole implements CommandLineRunner {
     private final ContactService contactService;
-
     @Autowired
     public ContactConsole(ContactService contactService) {
         this.contactService = contactService;

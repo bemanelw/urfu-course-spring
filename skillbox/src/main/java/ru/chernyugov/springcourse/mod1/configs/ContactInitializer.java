@@ -1,16 +1,17 @@
-package ru.chernyugov.springcourse.mod1;
+package ru.chernyugov.springcourse.mod1.configs;
 
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
 import ru.chernyugov.springcourse.mod1.models.Contact;
 import ru.chernyugov.springcourse.mod1.services.ContactService;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-
+@Profile("init")
 @Configuration
 public class ContactInitializer {
     private final ContactService contactService;
