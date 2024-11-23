@@ -13,8 +13,11 @@
         <module name="mod5" />
         <module name="mod4" />
         <module name="mod3" />
-        <module name="Mod1" />
         <module name="mod2" />
+        <module name="mod6" />
+        <module name="Mod1" />
+        <module name="order-service" />
+        <module name="order-status-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +33,9 @@
       <module name="mod3" options="-parameters" />
       <module name="mod4" options="-parameters" />
       <module name="mod5" options="-parameters" />
+      <module name="mod6" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="order-status-server" options="-parameters" />
     </option>
   </component>
 </project>
