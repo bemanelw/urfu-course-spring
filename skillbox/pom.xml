@@ -9,9 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ru.chernyugov.springcourse</groupId>
-	<artifactId>Mod1</artifactId>
+	<artifactId>skillbox</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>skillbox</name>
+    <packaging>pom</packaging>
+    <name>skillbox</name>
 	<description>skillbox</description>
 	<url/>
 	<licenses>
@@ -20,7 +21,10 @@
 	<developers>
 		<developer/>
 	</developers>
-	<scm>
+    <modules>
+        <module>mod7</module>
+    </modules>
+    <scm>
 		<connection/>
 		<developerConnection/>
 		<tag/>

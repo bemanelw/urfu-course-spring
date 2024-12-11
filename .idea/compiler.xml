@@ -15,9 +15,19 @@
         <module name="mod3" />
         <module name="mod2" />
         <module name="mod6" />
-        <module name="Mod1" />
         <module name="order-service" />
         <module name="order-status-server" />
+      </profile>
+      <profile name="Annotation profile for skillbox" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.6.2/mapstruct-processor-1.6.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.6.2/mapstruct-1.6.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
+        </processorPath>
+        <module name="mod7" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,14 +38,15 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="FirstTask" options="-parameters" />
-      <module name="Mod1" options="-parameters" />
       <module name="mod2" options="-parameters" />
       <module name="mod3" options="-parameters" />
       <module name="mod4" options="-parameters" />
       <module name="mod5" options="-parameters" />
       <module name="mod6" options="-parameters" />
+      <module name="mod7" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="order-status-server" options="-parameters" />
+      <module name="skillbox" options="" />
     </option>
   </component>
 </project>
